@@ -1,0 +1,82 @@
+/* fonts */
+@import url('http://fonts.googleapis.com/css?family=Lato');            /* headings */
+@import url('http://fonts.googleapis.com/css?family=Roboto');          /* text */
+@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro'); /* code */
+
+
+/* general */
+body {
+	background-color: #fff !important;
+}
+a {
+	text-decoration: none !important;
+}
+
+
+/* hide things */
+#header-container, .header-bar, #maintoolbar {
+	display: none;
+}
+
+
+/* navigation */
+#header {
+	font-family: lato;
+	box-shadow: none !important;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+#menus {
+	background: none;
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 5px !important;
+}
+#kernel_indicator {
+	border: none;
+}
+
+
+/* notebook */
+#notebook-container {
+	box-shadow: none;
+}
+#notebook_panel ul {
+	line-height: 125%;
+	font-size: 100%;
+}
+#notebook_panel li {
+	margin-bottom: 16px;
+}
+
+
+/* cells: text */
+.text_cell_render {
+	font-family: roboto, helvetica, arial, sans;
+	font-size: 12pt;
+	color: #444;
+	line-height: 145%; 
+}
+.text_cell_render h1 {
+    font-size: 24pt;
+    font-weight: 500;
+}
+.text_cell_render h2 {
+    font-size: 18pt;
+	font-weight: 500;
+}
+.text_cell_render h3 {
+    font-size: 14pt;
+	font-weight: 500;
+}
+
+/* cells: code */
+.CodeMirror, .cm-header {
+    font-family: source-code-pro, monospace !important;
+    font-size: 14px !important;
+}
+.CodeMirror {
+	line-height: 24px;
+}
+.cell.selected {
+    border-color: rgba(0,0,0,0.1) !important;
+}
