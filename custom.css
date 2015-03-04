@@ -11,7 +11,9 @@ body {
 a {
 	text-decoration: none !important;
 }
-
+::-webkit-scrollbar { 
+    display: none; 
+}
 
 /* hide things */
 #header-container, .header-bar, #maintoolbar {
