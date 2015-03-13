@@ -11,8 +11,8 @@ body {
 a {
 	text-decoration: none !important;
 }
-::-webkit-scrollbar { 
-    	display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 /* hide things */
@@ -25,7 +25,7 @@ a {
 #header {
 	font-family: lato;
 	box-shadow: none !important;
-	border-bottom: 1px solid rgba(0,0,0,0.15);
+    border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 #menus {
 	background: none;
@@ -56,29 +56,38 @@ a {
 	font-family: roboto, helvetica, arial, sans;
 	font-size: 12pt;
 	color: #444;
-	line-height: 145%; 
+	line-height: 145%;
 }
 .text_cell_render h1 {
-	font-size: 24pt;
-	font-weight: 500;
+    font-size: 24pt;
+    font-weight: 500;
 }
 .text_cell_render h2 {
-	font-size: 18pt;
+    font-size: 18pt;
 	font-weight: 500;
 }
 .text_cell_render h3 {
-	font-size: 14pt;
+    font-size: 14pt;
 	font-weight: 500;
 }
 
 /* cells: code */
 .CodeMirror, .cm-header {
-	font-family: source-code-pro, monospace !important;
-	font-size: 14px !important;
+    font-family: source-code-pro, monospace !important;
+    font-size: 14px !important;
 }
 .CodeMirror {
 	line-height: 24px;
 }
 .cell.selected {
-	border-color: rgba(0,0,0,0.1) !important;
+    border-color: rgba(0,0,0,0.1) !important;
+}
+
+
+/* widgets */
+.widget-label {
+    min-width: 300px !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #e6e6e6 !important;
 }
