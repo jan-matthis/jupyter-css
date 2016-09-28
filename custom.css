@@ -80,13 +80,13 @@ a {
 	line-height: 24px;
 }
 .cell.selected {
-    border-color: rgba(0,0,0,0.1) !important;
+	border-color: rgba(0,0,0,0.1) !important;
 }
 
 
 /* widgets */
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    background: #e6e6e6 !important;
+	background: #e6e6e6 !important;
 }
 
 
@@ -94,11 +94,11 @@ a {
 .dataframe * {
 	border-color: #c0c0c0 !important;
 }
-.dataframe th{
+.dataframe th {
 	background: #fafafa;
 }
-.dataframe td{
-		background: #fff;
-		text-align: right;
-		min-width:5em;
+.dataframe td {
+	background: #fff;
+	text-align: right;
+	min-width:5em;
 }
