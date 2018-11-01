@@ -7,4 +7,6 @@ A minimal stylesheet for [Jupyter](http://jupyter.org/).
 
 ## Installation
 
-Copy `custom.css` to the subfolder `custom` in your profile folder. By default, the profile folder is located at: `~/.jupyter/`.
+Copy `custom.css` to `~/.jupyter/custom/custom.css`. 
+
+If you are not using default paths, adjust according to `jupyter --config-dir`.
