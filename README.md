@@ -7,6 +7,12 @@ A minimal stylesheet for [Jupyter](http://jupyter.org/).
 
 ## Installation
 
-Copy `custom.css` to `~/.jupyter/custom/custom.css`. 
+Copy `custom.css` to `~/.jupyter/custom/custom.css` (if you are not using default paths, else adjust according to `jupyter --config-dir`).
 
-If you are not using default paths, adjust according to `jupyter --config-dir`.
+```bash
+git clone https://github.com/jan-matthis/jupyter-css.git
+cd jupyter-css
+mkdir -p ~/.jupyter/custom/
+cp custom/custom.css ~/.jupyter/custom/custom.css
+```
+
