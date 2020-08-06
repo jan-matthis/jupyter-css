@@ -1,8 +1,14 @@
 /* fonts */
 @import url('http://fonts.googleapis.com/css?family=Lato');            /* headings */
 @import url('http://fonts.googleapis.com/css?family=Roboto');          /* text */
-@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro'); /* code */
-
+@font-face{
+  font-family: 'JetBrainsMono';
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 
 /* general */
 body {
@@ -73,7 +79,7 @@ a {
 
 /* cells: code */
 .CodeMirror, .cm-header {
-    font-family: source-code-pro, monospace !important;
+    font-family: JetBrainMono, monospace !important;
     font-size: 14px !important;
 }
 .CodeMirror {
